@@ -1,0 +1,87 @@
+# Node.js (React Frontend)
+frontend/node_modules/
+frontend/.env
+frontend/.next/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Python (Flask Backend)
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/instance/
+backend/*.sqlite3
+backend/.coverage
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# LLM Agent
+llm_agent/.cache/
+llm_agent/intents/.cache
+
+# MacOS
+.DS_Store
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Test Results
+test-results/
+coverage/
+
+# Build and Dependency directories
+dist/
+build/
+target/
+
+# Python egg files
+*.egg
+*.egg-info/
+.eggs/
+
+# Environment files
+.env
+.env.*
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker
+docker-compose.yml
+Dockerfile
+*.tar
+
+# AWS and Cloud (if using cloud services)
+.aws/
+.gcloud/
+terraform.tfstate
+.terraform/
+
+# Miscellaneous
+*.bak
+*.old
+*.tmp
+*.zip
